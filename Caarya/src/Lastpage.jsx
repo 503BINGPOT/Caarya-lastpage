@@ -1,7 +1,7 @@
 import React from "react";
 import "./Lastpage.css";
 import TraitItem from './Trait.jsx';
-
+import aboutData from "./aboutdata.js";
 
 
 
@@ -86,20 +86,20 @@ export default function Lastpage() {
 
 
 {/* About the Project */}
+{aboutData.map((section, index) => (
 <div className="about-section">
-  <div className="section-heading">About The Project</div>
+  <div className="section-heading">{section.title}</div>
   <p className="about-text">
-    Project Horizon is an innovative initiative aimed at redefining our brand's market presence...
+    {section.content}
   </p>
+      {section.footer && (
+      <p className="mt-2 text-sm">
+        <strong>{section.footer}</strong>
+      </p>
+    )}
 </div>
+))}
 
-{/* About Innovatech Solutions */}
-<div className="about-section">
-  <div className="section-heading">About Innovatech Solutions</div>
-  <p className="about-text">
-    At Innovatech Solutions, we specialize in cutting-edge technology development and digital...
-  </p>
-</div>
 {/* Industry Tags */}
 <div className="industry-tags">
   <span className="tag outlined-pink">Education & Skill Development</span>
