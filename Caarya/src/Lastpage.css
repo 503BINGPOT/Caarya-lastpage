@@ -1,0 +1,282 @@
+/* Lastpage.css */
+
+body {
+  background-color: #f9fafb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a202c;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #2d3748;
+}
+
+.subtext {
+  font-size: 15px;
+  color: #4a5568;
+  margin-bottom: 4px;
+}
+
+.tagline {
+  font-size: 16px;
+  color: #7c3aed;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #edf2f7;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a202c;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e2e8f0;
+}
+
+.card {
+  background-color: #fefefe;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.card div {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.paragraph {
+  font-size: 15px;
+  color: #4a5568;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.associated-vc {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #fafafa;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #1a202c;
+  margin-bottom: 10px;
+}
+
+.rewards-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  color: #1a202c;
+}
+
+.rewards-section {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.rewards-label {
+  font-size: 13px;
+  text-align: center;
+  color: #4a5568;
+  width: 80px;
+}
+
+.rewards-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reward-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  font-size: 14px;
+  color: #2d3748;
+  width: fit-content;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.reward-note {
+  font-size: 12px;
+  color: #718096;
+  margin-top: 4px;
+  margin-left: 120px;
+}
+
+.rewards-divider {
+  border-top: 1px solid #e2e8f0;
+  margin: 16px 0;
+}
+
+.about-text {
+  font-size: 14px;
+  color: #2d3748;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+/* Tags */
+.industry-tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 18px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.outlined-pink {
+  color: #dc1f78;
+  border: 1px solid #dc1f78;
+  background-color: transparent;
+}
+
+.filled-pink {
+  background-color: #fce4f1;
+  color: #dc1f78;
+  border: none;
+}
+
+/* Company Traits */
+.company-traits {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.trait-group {
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 16px;
+}
+
+.trait-title {
+  font-size: 12px;
+  color: #718096;
+  margin-bottom: 4px;
+}
+
+.trait-value {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a202c;
+}
+
+.trait-desc {
+  font-size: 13px;
+  color: #4a5568;
+  margin-top: 10px;
+}
+
+.trait-note {
+  font-size: 12px;
+  color: #a0aec0;
+  display: flex;
+  align-items: start;
+  margin-top: 8px;
+  gap: 6px;
+}
+
+.trait-icon {
+  font-size: 14px;
+  color: #ec4899;
+}
+
+/* Work Culture */
+.work-culture {
+  margin-top: 30px;
+}
+
+.culture-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.outlined-colored {
+  border: 1px solid #cbd5e0;
+  background-color: #f7fafc;
+  color: #2d3748;
+}
+
+
+.trait-wrapper {
+  width: 100%;
+  background: white; /* optional */
+}
+
+.trait-container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.trait-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
